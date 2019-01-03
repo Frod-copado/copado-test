@@ -78,867 +78,6 @@
         </weightedSourceCategories>
     </forecastingCategoryMappings>
     <forecastingTypeSettings>
-        <active>true</active>
-        <adjustmentsSettings>
-            <enableAdjustments>false</enableAdjustments>
-            <enableOwnerAdjustments>false</enableOwnerAdjustments>
-        </adjustmentsSettings>
-        <displayedCategoryApiNames>closedonly</displayedCategoryApiNames>
-        <displayedCategoryApiNames>commitonly</displayedCategoryApiNames>
-        <displayedCategoryApiNames>bestcaseonly</displayedCategoryApiNames>
-        <displayedCategoryApiNames>pipelineonly</displayedCategoryApiNames>
-        <forecastRangeSettings>
-            <beginning>0</beginning>
-            <displaying>6</displaying>
-            <periodType>Month</periodType>
-        </forecastRangeSettings>
-        <forecastedCategoryApiNames>commitonly</forecastedCategoryApiNames>
-        <forecastedCategoryApiNames>closedonly</forecastedCategoryApiNames>
-        <forecastedCategoryApiNames>pipelineonly</forecastedCategoryApiNames>
-        <forecastedCategoryApiNames>bestcaseonly</forecastedCategoryApiNames>
-        <forecastingDateType>OpportunityCloseDate</forecastingDateType>
-        <hasProductFamily>false</hasProductFamily>
-        <isAmount>true</isAmount>
-        <isAvailable>true</isAvailable>
-        <isQuantity>false</isQuantity>
-        <masterLabel>Oportunidades</masterLabel>
-        <name>OpportunityRevenue</name>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.NAME</field>
-            <label>Nombre de la oportunidad</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>ACCOUNT.NAME</field>
-            <label>Nombre de la cuenta</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.AMOUNT</field>
-            <label>Importe</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.CLOSE_DATE</field>
-            <label>Fecha de cierre</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.STAGE_NAME</field>
-            <label>Etapa</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.PROBABILITY</field>
-            <label>Probabilidad (%)</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>FORECAST_CATEGORY</field>
-            <label>Categoría de previsión</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>FULL_NAME</field>
-            <label>Nombre completo del propietario</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>CONTRACT.CONTRACT_NUMBER</field>
-            <label>Número de contrato</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>CONTRACT.NAME</field>
-            <label>Nombre del contrato</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>CORE.USERS.ALIAS</field>
-            <label>Alias del propietario de la oportunidad</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>CORE.USERS.FIRST_NAME</field>
-            <label>Nombre del propietario</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>CORE.USERS.LAST_NAME</field>
-            <label>Apellidos del propietario</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>DESCRIPTION</field>
-            <label>Descripción</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.EXP_AMOUNT</field>
-            <label>Ingresos previstos</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.LEAD_SOURCE</field>
-            <label>Origen del candidato</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.NEXT_STEP</field>
-            <label>Paso siguiente</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.PRIVATE</field>
-            <label>Privada</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.QUANTITY</field>
-            <label>Cantidad</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.TYPE</field>
-            <label>Tipo</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>UPDATEDBY_USER.ALIAS</field>
-            <label>Última modificación por alias</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>CREATEDBY_USER.ALIAS</field>
-            <label>Creado por alias</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.CLOSED</field>
-            <label>Cerrado</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.WON</field>
-            <label>Ganadas</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>ACCOUNT.SITE</field>
-            <label>Sitio de la cuenta</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.FISCAL_YEAR</field>
-            <label>Año fiscal</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.FISCAL_QUARTER</field>
-            <label>Trimestre fiscal</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <label>Periodo fiscal</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.LAST_ACTIVITY</field>
-            <label>Última actividad</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.CREATED_DATE</field>
-            <label>Fecha de creación</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.LAST_UPDATE</field>
-            <label>Fecha de la última modificación</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaK</field>
-            <label>Current Generator(s)</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaL</field>
-            <label>Delivery/Installation Status</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaM</field>
-            <label>Main Competitor(s)</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaN</field>
-            <label>Order Number</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaO</field>
-            <label>Tracking Number</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsSelectedSettings>
-            <field>OPPORTUNITY.NAME</field>
-            <field>ACCOUNT.NAME</field>
-            <field>OPPORTUNITY.AMOUNT</field>
-            <field>OPPORTUNITY.CLOSE_DATE</field>
-            <field>OPPORTUNITY.STAGE_NAME</field>
-            <field>OPPORTUNITY.PROBABILITY</field>
-            <field>FORECAST_CATEGORY</field>
-            <field>FULL_NAME</field>
-        </opportunityListFieldsSelectedSettings>
-        <opportunityListFieldsUnselectedSettings>
-            <field>CONTRACT.CONTRACT_NUMBER</field>
-            <field>CONTRACT.NAME</field>
-            <field>CORE.USERS.ALIAS</field>
-            <field>CORE.USERS.FIRST_NAME</field>
-            <field>CORE.USERS.LAST_NAME</field>
-            <field>DESCRIPTION</field>
-            <field>OPPORTUNITY.EXP_AMOUNT</field>
-            <field>OPPORTUNITY.LEAD_SOURCE</field>
-            <field>OPPORTUNITY.NEXT_STEP</field>
-            <field>OPPORTUNITY.PRIVATE</field>
-            <field>OPPORTUNITY.QUANTITY</field>
-            <field>OPPORTUNITY.TYPE</field>
-            <field>UPDATEDBY_USER.ALIAS</field>
-            <field>CREATEDBY_USER.ALIAS</field>
-            <field>OPPORTUNITY.CLOSED</field>
-            <field>OPPORTUNITY.WON</field>
-            <field>ACCOUNT.SITE</field>
-            <field>OPPORTUNITY.FISCAL_YEAR</field>
-            <field>OPPORTUNITY.FISCAL_QUARTER</field>
-            <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <field>OPPORTUNITY.LAST_ACTIVITY</field>
-            <field>OPPORTUNITY.CREATED_DATE</field>
-            <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N1t00000BioaK</field>
-            <field>00N1t00000BioaL</field>
-            <field>00N1t00000BioaM</field>
-            <field>00N1t00000BioaN</field>
-            <field>00N1t00000BioaO</field>
-        </opportunityListFieldsUnselectedSettings>
-        <quotasSettings>
-            <showQuotas>false</showQuotas>
-        </quotasSettings>
-    </forecastingTypeSettings>
-    <forecastingTypeSettings>
-        <active>false</active>
-        <adjustmentsSettings>
-            <enableAdjustments>false</enableAdjustments>
-            <enableOwnerAdjustments>false</enableOwnerAdjustments>
-        </adjustmentsSettings>
-        <displayedCategoryApiNames>closedonly</displayedCategoryApiNames>
-        <displayedCategoryApiNames>commitonly</displayedCategoryApiNames>
-        <displayedCategoryApiNames>bestcaseonly</displayedCategoryApiNames>
-        <displayedCategoryApiNames>pipelineonly</displayedCategoryApiNames>
-        <forecastRangeSettings>
-            <beginning>0</beginning>
-            <displaying>6</displaying>
-            <periodType>Month</periodType>
-        </forecastRangeSettings>
-        <forecastedCategoryApiNames>commitonly</forecastedCategoryApiNames>
-        <forecastedCategoryApiNames>closedonly</forecastedCategoryApiNames>
-        <forecastedCategoryApiNames>pipelineonly</forecastedCategoryApiNames>
-        <forecastedCategoryApiNames>bestcaseonly</forecastedCategoryApiNames>
-        <forecastingDateType>OpportunityCloseDate</forecastingDateType>
-        <hasProductFamily>false</hasProductFamily>
-        <isAmount>false</isAmount>
-        <isAvailable>true</isAvailable>
-        <isQuantity>true</isQuantity>
-        <masterLabel>Oportunidades</masterLabel>
-        <name>OpportunityQuantity</name>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.NAME</field>
-            <label>Nombre de la oportunidad</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>ACCOUNT.NAME</field>
-            <label>Nombre de la cuenta</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.QUANTITY</field>
-            <label>Cantidad</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.CLOSE_DATE</field>
-            <label>Fecha de cierre</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.STAGE_NAME</field>
-            <label>Etapa</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.PROBABILITY</field>
-            <label>Probabilidad (%)</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>FORECAST_CATEGORY</field>
-            <label>Categoría de previsión</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>FULL_NAME</field>
-            <label>Nombre completo del propietario</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>CONTRACT.CONTRACT_NUMBER</field>
-            <label>Número de contrato</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>CONTRACT.NAME</field>
-            <label>Nombre del contrato</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.AMOUNT</field>
-            <label>Importe</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>CORE.USERS.ALIAS</field>
-            <label>Alias del propietario de la oportunidad</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>CORE.USERS.FIRST_NAME</field>
-            <label>Nombre del propietario</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>CORE.USERS.LAST_NAME</field>
-            <label>Apellidos del propietario</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>DESCRIPTION</field>
-            <label>Descripción</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.EXP_AMOUNT</field>
-            <label>Ingresos previstos</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.LEAD_SOURCE</field>
-            <label>Origen del candidato</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.NEXT_STEP</field>
-            <label>Paso siguiente</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.PRIVATE</field>
-            <label>Privada</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.TYPE</field>
-            <label>Tipo</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>UPDATEDBY_USER.ALIAS</field>
-            <label>Última modificación por alias</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>CREATEDBY_USER.ALIAS</field>
-            <label>Creado por alias</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.CLOSED</field>
-            <label>Cerrado</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.WON</field>
-            <label>Ganadas</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>ACCOUNT.SITE</field>
-            <label>Sitio de la cuenta</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.FISCAL_YEAR</field>
-            <label>Año fiscal</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.FISCAL_QUARTER</field>
-            <label>Trimestre fiscal</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <label>Periodo fiscal</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.LAST_ACTIVITY</field>
-            <label>Última actividad</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.CREATED_DATE</field>
-            <label>Fecha de creación</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.LAST_UPDATE</field>
-            <label>Fecha de la última modificación</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaK</field>
-            <label>Current Generator(s)</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaL</field>
-            <label>Delivery/Installation Status</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaM</field>
-            <label>Main Competitor(s)</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaN</field>
-            <label>Order Number</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaO</field>
-            <label>Tracking Number</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsSelectedSettings>
-            <field>OPPORTUNITY.NAME</field>
-            <field>ACCOUNT.NAME</field>
-            <field>OPPORTUNITY.QUANTITY</field>
-            <field>OPPORTUNITY.CLOSE_DATE</field>
-            <field>OPPORTUNITY.STAGE_NAME</field>
-            <field>OPPORTUNITY.PROBABILITY</field>
-            <field>FORECAST_CATEGORY</field>
-            <field>FULL_NAME</field>
-        </opportunityListFieldsSelectedSettings>
-        <opportunityListFieldsUnselectedSettings>
-            <field>CONTRACT.CONTRACT_NUMBER</field>
-            <field>CONTRACT.NAME</field>
-            <field>OPPORTUNITY.AMOUNT</field>
-            <field>CORE.USERS.ALIAS</field>
-            <field>CORE.USERS.FIRST_NAME</field>
-            <field>CORE.USERS.LAST_NAME</field>
-            <field>DESCRIPTION</field>
-            <field>OPPORTUNITY.EXP_AMOUNT</field>
-            <field>OPPORTUNITY.LEAD_SOURCE</field>
-            <field>OPPORTUNITY.NEXT_STEP</field>
-            <field>OPPORTUNITY.PRIVATE</field>
-            <field>OPPORTUNITY.TYPE</field>
-            <field>UPDATEDBY_USER.ALIAS</field>
-            <field>CREATEDBY_USER.ALIAS</field>
-            <field>OPPORTUNITY.CLOSED</field>
-            <field>OPPORTUNITY.WON</field>
-            <field>ACCOUNT.SITE</field>
-            <field>OPPORTUNITY.FISCAL_YEAR</field>
-            <field>OPPORTUNITY.FISCAL_QUARTER</field>
-            <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <field>OPPORTUNITY.LAST_ACTIVITY</field>
-            <field>OPPORTUNITY.CREATED_DATE</field>
-            <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N1t00000BioaK</field>
-            <field>00N1t00000BioaL</field>
-            <field>00N1t00000BioaM</field>
-            <field>00N1t00000BioaN</field>
-            <field>00N1t00000BioaO</field>
-        </opportunityListFieldsUnselectedSettings>
-        <quotasSettings>
-            <showQuotas>false</showQuotas>
-        </quotasSettings>
-    </forecastingTypeSettings>
-    <forecastingTypeSettings>
-        <active>false</active>
-        <adjustmentsSettings>
-            <enableAdjustments>false</enableAdjustments>
-            <enableOwnerAdjustments>false</enableOwnerAdjustments>
-        </adjustmentsSettings>
-        <displayedCategoryApiNames>closedonly</displayedCategoryApiNames>
-        <displayedCategoryApiNames>commitonly</displayedCategoryApiNames>
-        <displayedCategoryApiNames>bestcaseonly</displayedCategoryApiNames>
-        <displayedCategoryApiNames>pipelineonly</displayedCategoryApiNames>
-        <forecastRangeSettings>
-            <beginning>0</beginning>
-            <displaying>6</displaying>
-            <periodType>Month</periodType>
-        </forecastRangeSettings>
-        <forecastedCategoryApiNames>commitonly</forecastedCategoryApiNames>
-        <forecastedCategoryApiNames>closedonly</forecastedCategoryApiNames>
-        <forecastedCategoryApiNames>pipelineonly</forecastedCategoryApiNames>
-        <forecastedCategoryApiNames>bestcaseonly</forecastedCategoryApiNames>
-        <forecastingDateType>OpportunityCloseDate</forecastingDateType>
-        <hasProductFamily>true</hasProductFamily>
-        <isAmount>true</isAmount>
-        <isAvailable>true</isAvailable>
-        <isQuantity>false</isQuantity>
-        <masterLabel>Familias de productos</masterLabel>
-        <name>OpportunityLineItemRevenue</name>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.NAME</field>
-            <label>Nombre de la oportunidad</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>ACCOUNT.NAME</field>
-            <label>Nombre de la cuenta</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>SPLITAMOUNT</field>
-            <label>Importe de previsión</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.CLOSE_DATE</field>
-            <label>Fecha de cierre</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.STAGE_NAME</field>
-            <label>Etapa</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.PROBABILITY</field>
-            <label>Probabilidad (%)</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>FORECAST_CATEGORY</field>
-            <label>Categoría de previsión</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>FULL_NAME</field>
-            <label>Nombre completo del propietario</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>CONTRACT.CONTRACT_NUMBER</field>
-            <label>Número de contrato</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>CONTRACT.NAME</field>
-            <label>Nombre del contrato</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.AMOUNT</field>
-            <label>Importe</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>CORE.USERS.ALIAS</field>
-            <label>Alias del propietario de la oportunidad</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>CORE.USERS.FIRST_NAME</field>
-            <label>Nombre del propietario</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>CORE.USERS.LAST_NAME</field>
-            <label>Apellidos del propietario</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>DESCRIPTION</field>
-            <label>Descripción</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.EXP_AMOUNT</field>
-            <label>Ingresos previstos</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.LEAD_SOURCE</field>
-            <label>Origen del candidato</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.NEXT_STEP</field>
-            <label>Paso siguiente</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.PRIVATE</field>
-            <label>Privada</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.QUANTITY</field>
-            <label>Cantidad</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.TYPE</field>
-            <label>Tipo</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>UPDATEDBY_USER.ALIAS</field>
-            <label>Última modificación por alias</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>CREATEDBY_USER.ALIAS</field>
-            <label>Creado por alias</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.CLOSED</field>
-            <label>Cerrado</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.WON</field>
-            <label>Ganadas</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>ACCOUNT.SITE</field>
-            <label>Sitio de la cuenta</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.FISCAL_YEAR</field>
-            <label>Año fiscal</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.FISCAL_QUARTER</field>
-            <label>Trimestre fiscal</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <label>Periodo fiscal</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.LAST_ACTIVITY</field>
-            <label>Última actividad</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.CREATED_DATE</field>
-            <label>Fecha de creación</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.LAST_UPDATE</field>
-            <label>Fecha de la última modificación</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaK</field>
-            <label>Current Generator(s)</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaL</field>
-            <label>Delivery/Installation Status</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaM</field>
-            <label>Main Competitor(s)</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaN</field>
-            <label>Order Number</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaO</field>
-            <label>Tracking Number</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsSelectedSettings>
-            <field>OPPORTUNITY.NAME</field>
-            <field>ACCOUNT.NAME</field>
-            <field>SPLITAMOUNT</field>
-            <field>OPPORTUNITY.CLOSE_DATE</field>
-            <field>OPPORTUNITY.STAGE_NAME</field>
-            <field>OPPORTUNITY.PROBABILITY</field>
-            <field>FORECAST_CATEGORY</field>
-            <field>FULL_NAME</field>
-        </opportunityListFieldsSelectedSettings>
-        <opportunityListFieldsUnselectedSettings>
-            <field>CONTRACT.CONTRACT_NUMBER</field>
-            <field>CONTRACT.NAME</field>
-            <field>OPPORTUNITY.AMOUNT</field>
-            <field>CORE.USERS.ALIAS</field>
-            <field>CORE.USERS.FIRST_NAME</field>
-            <field>CORE.USERS.LAST_NAME</field>
-            <field>DESCRIPTION</field>
-            <field>OPPORTUNITY.EXP_AMOUNT</field>
-            <field>OPPORTUNITY.LEAD_SOURCE</field>
-            <field>OPPORTUNITY.NEXT_STEP</field>
-            <field>OPPORTUNITY.PRIVATE</field>
-            <field>OPPORTUNITY.QUANTITY</field>
-            <field>OPPORTUNITY.TYPE</field>
-            <field>UPDATEDBY_USER.ALIAS</field>
-            <field>CREATEDBY_USER.ALIAS</field>
-            <field>OPPORTUNITY.CLOSED</field>
-            <field>OPPORTUNITY.WON</field>
-            <field>ACCOUNT.SITE</field>
-            <field>OPPORTUNITY.FISCAL_YEAR</field>
-            <field>OPPORTUNITY.FISCAL_QUARTER</field>
-            <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <field>OPPORTUNITY.LAST_ACTIVITY</field>
-            <field>OPPORTUNITY.CREATED_DATE</field>
-            <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N1t00000BioaK</field>
-            <field>00N1t00000BioaL</field>
-            <field>00N1t00000BioaM</field>
-            <field>00N1t00000BioaN</field>
-            <field>00N1t00000BioaO</field>
-        </opportunityListFieldsUnselectedSettings>
-        <quotasSettings>
-            <showQuotas>false</showQuotas>
-        </quotasSettings>
-    </forecastingTypeSettings>
-    <forecastingTypeSettings>
-        <active>false</active>
-        <adjustmentsSettings>
-            <enableAdjustments>false</enableAdjustments>
-            <enableOwnerAdjustments>false</enableOwnerAdjustments>
-        </adjustmentsSettings>
-        <displayedCategoryApiNames>closedonly</displayedCategoryApiNames>
-        <displayedCategoryApiNames>commitonly</displayedCategoryApiNames>
-        <displayedCategoryApiNames>bestcaseonly</displayedCategoryApiNames>
-        <displayedCategoryApiNames>pipelineonly</displayedCategoryApiNames>
-        <forecastRangeSettings>
-            <beginning>0</beginning>
-            <displaying>6</displaying>
-            <periodType>Month</periodType>
-        </forecastRangeSettings>
-        <forecastedCategoryApiNames>commitonly</forecastedCategoryApiNames>
-        <forecastedCategoryApiNames>closedonly</forecastedCategoryApiNames>
-        <forecastedCategoryApiNames>pipelineonly</forecastedCategoryApiNames>
-        <forecastedCategoryApiNames>bestcaseonly</forecastedCategoryApiNames>
-        <forecastingDateType>OpportunityCloseDate</forecastingDateType>
-        <hasProductFamily>true</hasProductFamily>
-        <isAmount>false</isAmount>
-        <isAvailable>true</isAvailable>
-        <isQuantity>true</isQuantity>
-        <masterLabel>Familias de productos</masterLabel>
-        <name>OpportunityLineItemQuantity</name>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.NAME</field>
-            <label>Nombre de la oportunidad</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>ACCOUNT.NAME</field>
-            <label>Nombre de la cuenta</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.QUANTITY</field>
-            <label>Cantidad</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.CLOSE_DATE</field>
-            <label>Fecha de cierre</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.STAGE_NAME</field>
-            <label>Etapa</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.PROBABILITY</field>
-            <label>Probabilidad (%)</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>FORECAST_CATEGORY</field>
-            <label>Categoría de previsión</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>FULL_NAME</field>
-            <label>Nombre completo del propietario</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>CONTRACT.CONTRACT_NUMBER</field>
-            <label>Número de contrato</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>CONTRACT.NAME</field>
-            <label>Nombre del contrato</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.AMOUNT</field>
-            <label>Importe</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>CORE.USERS.ALIAS</field>
-            <label>Alias del propietario de la oportunidad</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>CORE.USERS.FIRST_NAME</field>
-            <label>Nombre del propietario</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>CORE.USERS.LAST_NAME</field>
-            <label>Apellidos del propietario</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>DESCRIPTION</field>
-            <label>Descripción</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.EXP_AMOUNT</field>
-            <label>Ingresos previstos</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.LEAD_SOURCE</field>
-            <label>Origen del candidato</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.NEXT_STEP</field>
-            <label>Paso siguiente</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.PRIVATE</field>
-            <label>Privada</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.TYPE</field>
-            <label>Tipo</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>UPDATEDBY_USER.ALIAS</field>
-            <label>Última modificación por alias</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>CREATEDBY_USER.ALIAS</field>
-            <label>Creado por alias</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.CLOSED</field>
-            <label>Cerrado</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.WON</field>
-            <label>Ganadas</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>ACCOUNT.SITE</field>
-            <label>Sitio de la cuenta</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.FISCAL_YEAR</field>
-            <label>Año fiscal</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.FISCAL_QUARTER</field>
-            <label>Trimestre fiscal</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <label>Periodo fiscal</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.LAST_ACTIVITY</field>
-            <label>Última actividad</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.CREATED_DATE</field>
-            <label>Fecha de creación</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.LAST_UPDATE</field>
-            <label>Fecha de la última modificación</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaK</field>
-            <label>Current Generator(s)</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaL</field>
-            <label>Delivery/Installation Status</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaM</field>
-            <label>Main Competitor(s)</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaN</field>
-            <label>Order Number</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaO</field>
-            <label>Tracking Number</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsSelectedSettings>
-            <field>OPPORTUNITY.NAME</field>
-            <field>ACCOUNT.NAME</field>
-            <field>OPPORTUNITY.QUANTITY</field>
-            <field>OPPORTUNITY.CLOSE_DATE</field>
-            <field>OPPORTUNITY.STAGE_NAME</field>
-            <field>OPPORTUNITY.PROBABILITY</field>
-            <field>FORECAST_CATEGORY</field>
-            <field>FULL_NAME</field>
-        </opportunityListFieldsSelectedSettings>
-        <opportunityListFieldsUnselectedSettings>
-            <field>CONTRACT.CONTRACT_NUMBER</field>
-            <field>CONTRACT.NAME</field>
-            <field>OPPORTUNITY.AMOUNT</field>
-            <field>CORE.USERS.ALIAS</field>
-            <field>CORE.USERS.FIRST_NAME</field>
-            <field>CORE.USERS.LAST_NAME</field>
-            <field>DESCRIPTION</field>
-            <field>OPPORTUNITY.EXP_AMOUNT</field>
-            <field>OPPORTUNITY.LEAD_SOURCE</field>
-            <field>OPPORTUNITY.NEXT_STEP</field>
-            <field>OPPORTUNITY.PRIVATE</field>
-            <field>OPPORTUNITY.TYPE</field>
-            <field>UPDATEDBY_USER.ALIAS</field>
-            <field>CREATEDBY_USER.ALIAS</field>
-            <field>OPPORTUNITY.CLOSED</field>
-            <field>OPPORTUNITY.WON</field>
-            <field>ACCOUNT.SITE</field>
-            <field>OPPORTUNITY.FISCAL_YEAR</field>
-            <field>OPPORTUNITY.FISCAL_QUARTER</field>
-            <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <field>OPPORTUNITY.LAST_ACTIVITY</field>
-            <field>OPPORTUNITY.CREATED_DATE</field>
-            <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N1t00000BioaK</field>
-            <field>00N1t00000BioaL</field>
-            <field>00N1t00000BioaM</field>
-            <field>00N1t00000BioaN</field>
-            <field>00N1t00000BioaO</field>
-        </opportunityListFieldsUnselectedSettings>
-        <quotasSettings>
-            <showQuotas>false</showQuotas>
-        </quotasSettings>
-    </forecastingTypeSettings>
-    <forecastingTypeSettings>
         <active>false</active>
         <adjustmentsSettings>
             <enableAdjustments>false</enableAdjustments>
@@ -966,150 +105,154 @@
         <name>OpportunityRevenueProductDate</name>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NAME</field>
-            <label>Nombre de la oportunidad</label>
+            <label>Opportunity Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.NAME</field>
-            <label>Nombre de la cuenta</label>
+            <label>Account Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>SPLITAMOUNT</field>
-            <label>Importe de previsión</label>
+            <label>Forecasted Amount</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSE_DATE</field>
-            <label>Fecha de cierre</label>
+            <label>Close Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.STAGE_NAME</field>
-            <label>Etapa</label>
+            <label>Stage</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.PROBABILITY</field>
-            <label>Probabilidad (%)</label>
+            <label>Probability (%)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>FORECAST_CATEGORY</field>
-            <label>Categoría de previsión</label>
+            <label>Forecast Category</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>FULL_NAME</field>
-            <label>Nombre completo del propietario</label>
+            <label>Owner Full Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
-            <label>Número de contrato</label>
+            <label>Contract Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.NAME</field>
-            <label>Nombre del contrato</label>
+            <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
-            <label>Importe</label>
+            <label>Amount</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.ALIAS</field>
-            <label>Alias del propietario de la oportunidad</label>
+            <label>Opportunity Owner Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.FIRST_NAME</field>
-            <label>Nombre del propietario</label>
+            <label>Owner First Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.LAST_NAME</field>
-            <label>Apellidos del propietario</label>
+            <label>Owner Last Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>DESCRIPTION</field>
-            <label>Descripción</label>
+            <label>Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.EXP_AMOUNT</field>
-            <label>Ingresos previstos</label>
+            <label>Expected Revenue</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LEAD_SOURCE</field>
-            <label>Origen del candidato</label>
+            <label>Lead Source</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
-            <label>Paso siguiente</label>
+            <label>Next Step</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.PRIVATE</field>
-            <label>Privada</label>
+            <label>Private</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.QUANTITY</field>
-            <label>Cantidad</label>
+            <label>Quantity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.TYPE</field>
-            <label>Tipo</label>
+            <label>Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>UPDATEDBY_USER.ALIAS</field>
-            <label>Última modificación por alias</label>
+            <label>Last Modified By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CREATEDBY_USER.ALIAS</field>
-            <label>Creado por alias</label>
+            <label>Created By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSED</field>
-            <label>Cerrado</label>
+            <label>Closed</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.WON</field>
-            <label>Ganadas</label>
+            <label>Won</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.SITE</field>
-            <label>Sitio de la cuenta</label>
+            <label>Account Site</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_YEAR</field>
-            <label>Año fiscal</label>
+            <label>Fiscal Year</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
-            <label>Trimestre fiscal</label>
+            <label>Fiscal Quarter</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <label>Periodo fiscal</label>
+            <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
-            <label>Última actividad</label>
+            <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CREATED_DATE</field>
-            <label>Fecha de creación</label>
+            <label>Created Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <label>Fecha de la última modificación</label>
+            <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaK</field>
+            <field>00N1r00000CqCtU</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaL</field>
+            <field>00N1r00000CqCtV</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaM</field>
+            <field>00N1r00000CzvIk</field>
+            <label>External ID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N1r00000CqCtW</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaN</field>
+            <field>00N1r00000CqCtX</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaO</field>
+            <field>00N1r00000CqCtY</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -1147,11 +290,12 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N1t00000BioaK</field>
-            <field>00N1t00000BioaL</field>
-            <field>00N1t00000BioaM</field>
-            <field>00N1t00000BioaN</field>
-            <field>00N1t00000BioaO</field>
+            <field>00N1r00000CqCtU</field>
+            <field>00N1r00000CqCtV</field>
+            <field>00N1r00000CzvIk</field>
+            <field>00N1r00000CqCtW</field>
+            <field>00N1r00000CqCtX</field>
+            <field>00N1r00000CqCtY</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -1185,146 +329,150 @@
         <name>OpportunityQuantityProductDate</name>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NAME</field>
-            <label>Nombre de la oportunidad</label>
+            <label>Opportunity Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.NAME</field>
-            <label>Nombre de la cuenta</label>
+            <label>Account Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.QUANTITY</field>
-            <label>Cantidad</label>
+            <label>Quantity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSE_DATE</field>
-            <label>Fecha de cierre</label>
+            <label>Close Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.STAGE_NAME</field>
-            <label>Etapa</label>
+            <label>Stage</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.PROBABILITY</field>
-            <label>Probabilidad (%)</label>
+            <label>Probability (%)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>FORECAST_CATEGORY</field>
-            <label>Categoría de previsión</label>
+            <label>Forecast Category</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>FULL_NAME</field>
-            <label>Nombre completo del propietario</label>
+            <label>Owner Full Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
-            <label>Número de contrato</label>
+            <label>Contract Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.NAME</field>
-            <label>Nombre del contrato</label>
+            <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
-            <label>Importe</label>
+            <label>Amount</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.ALIAS</field>
-            <label>Alias del propietario de la oportunidad</label>
+            <label>Opportunity Owner Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.FIRST_NAME</field>
-            <label>Nombre del propietario</label>
+            <label>Owner First Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.LAST_NAME</field>
-            <label>Apellidos del propietario</label>
+            <label>Owner Last Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>DESCRIPTION</field>
-            <label>Descripción</label>
+            <label>Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.EXP_AMOUNT</field>
-            <label>Ingresos previstos</label>
+            <label>Expected Revenue</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LEAD_SOURCE</field>
-            <label>Origen del candidato</label>
+            <label>Lead Source</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
-            <label>Paso siguiente</label>
+            <label>Next Step</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.PRIVATE</field>
-            <label>Privada</label>
+            <label>Private</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.TYPE</field>
-            <label>Tipo</label>
+            <label>Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>UPDATEDBY_USER.ALIAS</field>
-            <label>Última modificación por alias</label>
+            <label>Last Modified By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CREATEDBY_USER.ALIAS</field>
-            <label>Creado por alias</label>
+            <label>Created By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSED</field>
-            <label>Cerrado</label>
+            <label>Closed</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.WON</field>
-            <label>Ganadas</label>
+            <label>Won</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.SITE</field>
-            <label>Sitio de la cuenta</label>
+            <label>Account Site</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_YEAR</field>
-            <label>Año fiscal</label>
+            <label>Fiscal Year</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
-            <label>Trimestre fiscal</label>
+            <label>Fiscal Quarter</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <label>Periodo fiscal</label>
+            <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
-            <label>Última actividad</label>
+            <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CREATED_DATE</field>
-            <label>Fecha de creación</label>
+            <label>Created Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <label>Fecha de la última modificación</label>
+            <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaK</field>
+            <field>00N1r00000CqCtU</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaL</field>
+            <field>00N1r00000CqCtV</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaM</field>
+            <field>00N1r00000CzvIk</field>
+            <label>External ID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N1r00000CqCtW</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaN</field>
+            <field>00N1r00000CqCtX</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaO</field>
+            <field>00N1r00000CqCtY</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -1361,11 +509,12 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N1t00000BioaK</field>
-            <field>00N1t00000BioaL</field>
-            <field>00N1t00000BioaM</field>
-            <field>00N1t00000BioaN</field>
-            <field>00N1t00000BioaO</field>
+            <field>00N1r00000CqCtU</field>
+            <field>00N1r00000CqCtV</field>
+            <field>00N1r00000CzvIk</field>
+            <field>00N1r00000CqCtW</field>
+            <field>00N1r00000CqCtX</field>
+            <field>00N1r00000CqCtY</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -1399,43 +548,43 @@
         <name>LineItemRevenueProductDate</name>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NAME</field>
-            <label>Nombre de la oportunidad</label>
+            <label>Opportunity Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.NAME</field>
-            <label>Nombre de la cuenta</label>
+            <label>Account Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
-            <label>Importe</label>
+            <label>Amount</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSE_DATE</field>
-            <label>Fecha de cierre</label>
+            <label>Close Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.STAGE_NAME</field>
-            <label>Etapa</label>
+            <label>Stage</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.PROBABILITY</field>
-            <label>Probabilidad (%)</label>
+            <label>Probability (%)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>FORECAST_CATEGORY</field>
-            <label>Categoría de previsión</label>
+            <label>Forecast Category</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>FULL_NAME</field>
-            <label>Nombre completo del propietario</label>
+            <label>Owner Full Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
-            <label>Número de contrato</label>
+            <label>Contract Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.NAME</field>
-            <label>Nombre del contrato</label>
+            <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.ALIAS</field>
@@ -1443,39 +592,39 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.FIRST_NAME</field>
-            <label>Nombre</label>
+            <label>First Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.LAST_NAME</field>
-            <label>Apellidos</label>
+            <label>Last Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>DESCRIPTION</field>
-            <label>Descripción</label>
+            <label>Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.EXP_AMOUNT</field>
-            <label>Ingresos previstos</label>
+            <label>Expected Revenue</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LEAD_SOURCE</field>
-            <label>Origen del candidato</label>
+            <label>Lead Source</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
-            <label>Paso siguiente</label>
+            <label>Next Step</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.PRIVATE</field>
-            <label>Privada</label>
+            <label>Private</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.QUANTITY</field>
-            <label>Cantidad</label>
+            <label>Quantity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.TYPE</field>
-            <label>Tipo</label>
+            <label>Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>UPDATEDBY_USER.ALIAS</field>
@@ -1487,58 +636,62 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSED</field>
-            <label>Cerrado</label>
+            <label>Closed</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.WON</field>
-            <label>Ganadas</label>
+            <label>Won</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.SITE</field>
-            <label>Sitio de la cuenta</label>
+            <label>Account Site</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_YEAR</field>
-            <label>Año fiscal</label>
+            <label>Fiscal Year</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
-            <label>Trimestre fiscal</label>
+            <label>Fiscal Quarter</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <label>Periodo fiscal</label>
+            <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
-            <label>Última actividad</label>
+            <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CREATED_DATE</field>
-            <label>Fecha de creación</label>
+            <label>Created Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <label>Fecha de la última modificación</label>
+            <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaK</field>
+            <field>00N1r00000CqCtU</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaL</field>
+            <field>00N1r00000CqCtV</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaM</field>
+            <field>00N1r00000CzvIk</field>
+            <label>External ID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N1r00000CqCtW</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaN</field>
+            <field>00N1r00000CqCtX</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaO</field>
+            <field>00N1r00000CqCtY</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -1575,11 +728,12 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N1t00000BioaK</field>
-            <field>00N1t00000BioaL</field>
-            <field>00N1t00000BioaM</field>
-            <field>00N1t00000BioaN</field>
-            <field>00N1t00000BioaO</field>
+            <field>00N1r00000CqCtU</field>
+            <field>00N1r00000CqCtV</field>
+            <field>00N1r00000CzvIk</field>
+            <field>00N1r00000CqCtW</field>
+            <field>00N1r00000CqCtX</field>
+            <field>00N1r00000CqCtY</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -1613,43 +767,43 @@
         <name>LineItemQuantityProductDate</name>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NAME</field>
-            <label>Nombre de la oportunidad</label>
+            <label>Opportunity Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.NAME</field>
-            <label>Nombre de la cuenta</label>
+            <label>Account Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
-            <label>Importe</label>
+            <label>Amount</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSE_DATE</field>
-            <label>Fecha de cierre</label>
+            <label>Close Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.STAGE_NAME</field>
-            <label>Etapa</label>
+            <label>Stage</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.PROBABILITY</field>
-            <label>Probabilidad (%)</label>
+            <label>Probability (%)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>FORECAST_CATEGORY</field>
-            <label>Categoría de previsión</label>
+            <label>Forecast Category</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>FULL_NAME</field>
-            <label>Nombre completo del propietario</label>
+            <label>Owner Full Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
-            <label>Número de contrato</label>
+            <label>Contract Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.NAME</field>
-            <label>Nombre del contrato</label>
+            <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.ALIAS</field>
@@ -1657,39 +811,39 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.FIRST_NAME</field>
-            <label>Nombre</label>
+            <label>First Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.LAST_NAME</field>
-            <label>Apellidos</label>
+            <label>Last Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>DESCRIPTION</field>
-            <label>Descripción</label>
+            <label>Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.EXP_AMOUNT</field>
-            <label>Ingresos previstos</label>
+            <label>Expected Revenue</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LEAD_SOURCE</field>
-            <label>Origen del candidato</label>
+            <label>Lead Source</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
-            <label>Paso siguiente</label>
+            <label>Next Step</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.PRIVATE</field>
-            <label>Privada</label>
+            <label>Private</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.QUANTITY</field>
-            <label>Cantidad</label>
+            <label>Quantity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.TYPE</field>
-            <label>Tipo</label>
+            <label>Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>UPDATEDBY_USER.ALIAS</field>
@@ -1701,58 +855,62 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSED</field>
-            <label>Cerrado</label>
+            <label>Closed</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.WON</field>
-            <label>Ganadas</label>
+            <label>Won</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.SITE</field>
-            <label>Sitio de la cuenta</label>
+            <label>Account Site</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_YEAR</field>
-            <label>Año fiscal</label>
+            <label>Fiscal Year</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
-            <label>Trimestre fiscal</label>
+            <label>Fiscal Quarter</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <label>Periodo fiscal</label>
+            <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
-            <label>Última actividad</label>
+            <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CREATED_DATE</field>
-            <label>Fecha de creación</label>
+            <label>Created Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <label>Fecha de la última modificación</label>
+            <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaK</field>
+            <field>00N1r00000CqCtU</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaL</field>
+            <field>00N1r00000CqCtV</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaM</field>
+            <field>00N1r00000CzvIk</field>
+            <label>External ID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N1r00000CqCtW</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaN</field>
+            <field>00N1r00000CqCtX</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaO</field>
+            <field>00N1r00000CqCtY</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -1789,11 +947,12 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N1t00000BioaK</field>
-            <field>00N1t00000BioaL</field>
-            <field>00N1t00000BioaM</field>
-            <field>00N1t00000BioaN</field>
-            <field>00N1t00000BioaO</field>
+            <field>00N1r00000CqCtU</field>
+            <field>00N1r00000CqCtV</field>
+            <field>00N1r00000CzvIk</field>
+            <field>00N1r00000CqCtW</field>
+            <field>00N1r00000CqCtX</field>
+            <field>00N1r00000CqCtY</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -1827,150 +986,154 @@
         <name>OpportunityRevenueScheduleDate</name>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NAME</field>
-            <label>Nombre de la oportunidad</label>
+            <label>Opportunity Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.NAME</field>
-            <label>Nombre de la cuenta</label>
+            <label>Account Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>SPLITAMOUNT</field>
-            <label>Importe de previsión</label>
+            <label>Forecasted Amount</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSE_DATE</field>
-            <label>Fecha de cierre</label>
+            <label>Close Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.STAGE_NAME</field>
-            <label>Etapa</label>
+            <label>Stage</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.PROBABILITY</field>
-            <label>Probabilidad (%)</label>
+            <label>Probability (%)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>FORECAST_CATEGORY</field>
-            <label>Categoría de previsión</label>
+            <label>Forecast Category</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>FULL_NAME</field>
-            <label>Nombre completo del propietario</label>
+            <label>Owner Full Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
-            <label>Número de contrato</label>
+            <label>Contract Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.NAME</field>
-            <label>Nombre del contrato</label>
+            <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
-            <label>Importe</label>
+            <label>Amount</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.ALIAS</field>
-            <label>Alias del propietario de la oportunidad</label>
+            <label>Opportunity Owner Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.FIRST_NAME</field>
-            <label>Nombre del propietario</label>
+            <label>Owner First Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.LAST_NAME</field>
-            <label>Apellidos del propietario</label>
+            <label>Owner Last Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>DESCRIPTION</field>
-            <label>Descripción</label>
+            <label>Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.EXP_AMOUNT</field>
-            <label>Ingresos previstos</label>
+            <label>Expected Revenue</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LEAD_SOURCE</field>
-            <label>Origen del candidato</label>
+            <label>Lead Source</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
-            <label>Paso siguiente</label>
+            <label>Next Step</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.PRIVATE</field>
-            <label>Privada</label>
+            <label>Private</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.QUANTITY</field>
-            <label>Cantidad</label>
+            <label>Quantity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.TYPE</field>
-            <label>Tipo</label>
+            <label>Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>UPDATEDBY_USER.ALIAS</field>
-            <label>Última modificación por alias</label>
+            <label>Last Modified By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CREATEDBY_USER.ALIAS</field>
-            <label>Creado por alias</label>
+            <label>Created By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSED</field>
-            <label>Cerrado</label>
+            <label>Closed</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.WON</field>
-            <label>Ganadas</label>
+            <label>Won</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.SITE</field>
-            <label>Sitio de la cuenta</label>
+            <label>Account Site</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_YEAR</field>
-            <label>Año fiscal</label>
+            <label>Fiscal Year</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
-            <label>Trimestre fiscal</label>
+            <label>Fiscal Quarter</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <label>Periodo fiscal</label>
+            <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
-            <label>Última actividad</label>
+            <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CREATED_DATE</field>
-            <label>Fecha de creación</label>
+            <label>Created Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <label>Fecha de la última modificación</label>
+            <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaK</field>
+            <field>00N1r00000CqCtU</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaL</field>
+            <field>00N1r00000CqCtV</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaM</field>
+            <field>00N1r00000CzvIk</field>
+            <label>External ID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N1r00000CqCtW</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaN</field>
+            <field>00N1r00000CqCtX</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaO</field>
+            <field>00N1r00000CqCtY</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -2008,11 +1171,12 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N1t00000BioaK</field>
-            <field>00N1t00000BioaL</field>
-            <field>00N1t00000BioaM</field>
-            <field>00N1t00000BioaN</field>
-            <field>00N1t00000BioaO</field>
+            <field>00N1r00000CqCtU</field>
+            <field>00N1r00000CqCtV</field>
+            <field>00N1r00000CzvIk</field>
+            <field>00N1r00000CqCtW</field>
+            <field>00N1r00000CqCtX</field>
+            <field>00N1r00000CqCtY</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -2046,146 +1210,150 @@
         <name>OpportunityQuantityScheduleDate</name>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NAME</field>
-            <label>Nombre de la oportunidad</label>
+            <label>Opportunity Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.NAME</field>
-            <label>Nombre de la cuenta</label>
+            <label>Account Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.QUANTITY</field>
-            <label>Cantidad</label>
+            <label>Quantity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSE_DATE</field>
-            <label>Fecha de cierre</label>
+            <label>Close Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.STAGE_NAME</field>
-            <label>Etapa</label>
+            <label>Stage</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.PROBABILITY</field>
-            <label>Probabilidad (%)</label>
+            <label>Probability (%)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>FORECAST_CATEGORY</field>
-            <label>Categoría de previsión</label>
+            <label>Forecast Category</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>FULL_NAME</field>
-            <label>Nombre completo del propietario</label>
+            <label>Owner Full Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
-            <label>Número de contrato</label>
+            <label>Contract Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.NAME</field>
-            <label>Nombre del contrato</label>
+            <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
-            <label>Importe</label>
+            <label>Amount</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.ALIAS</field>
-            <label>Alias del propietario de la oportunidad</label>
+            <label>Opportunity Owner Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.FIRST_NAME</field>
-            <label>Nombre del propietario</label>
+            <label>Owner First Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.LAST_NAME</field>
-            <label>Apellidos del propietario</label>
+            <label>Owner Last Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>DESCRIPTION</field>
-            <label>Descripción</label>
+            <label>Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.EXP_AMOUNT</field>
-            <label>Ingresos previstos</label>
+            <label>Expected Revenue</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LEAD_SOURCE</field>
-            <label>Origen del candidato</label>
+            <label>Lead Source</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
-            <label>Paso siguiente</label>
+            <label>Next Step</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.PRIVATE</field>
-            <label>Privada</label>
+            <label>Private</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.TYPE</field>
-            <label>Tipo</label>
+            <label>Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>UPDATEDBY_USER.ALIAS</field>
-            <label>Última modificación por alias</label>
+            <label>Last Modified By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CREATEDBY_USER.ALIAS</field>
-            <label>Creado por alias</label>
+            <label>Created By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSED</field>
-            <label>Cerrado</label>
+            <label>Closed</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.WON</field>
-            <label>Ganadas</label>
+            <label>Won</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.SITE</field>
-            <label>Sitio de la cuenta</label>
+            <label>Account Site</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_YEAR</field>
-            <label>Año fiscal</label>
+            <label>Fiscal Year</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
-            <label>Trimestre fiscal</label>
+            <label>Fiscal Quarter</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <label>Periodo fiscal</label>
+            <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
-            <label>Última actividad</label>
+            <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CREATED_DATE</field>
-            <label>Fecha de creación</label>
+            <label>Created Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <label>Fecha de la última modificación</label>
+            <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaK</field>
+            <field>00N1r00000CqCtU</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaL</field>
+            <field>00N1r00000CqCtV</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaM</field>
+            <field>00N1r00000CzvIk</field>
+            <label>External ID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N1r00000CqCtW</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaN</field>
+            <field>00N1r00000CqCtX</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaO</field>
+            <field>00N1r00000CqCtY</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -2222,11 +1390,12 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N1t00000BioaK</field>
-            <field>00N1t00000BioaL</field>
-            <field>00N1t00000BioaM</field>
-            <field>00N1t00000BioaN</field>
-            <field>00N1t00000BioaO</field>
+            <field>00N1r00000CqCtU</field>
+            <field>00N1r00000CqCtV</field>
+            <field>00N1r00000CzvIk</field>
+            <field>00N1r00000CqCtW</field>
+            <field>00N1r00000CqCtX</field>
+            <field>00N1r00000CqCtY</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -2260,43 +1429,43 @@
         <name>LineItemRevenueScheduleDate</name>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NAME</field>
-            <label>Nombre de la oportunidad</label>
+            <label>Opportunity Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.NAME</field>
-            <label>Nombre de la cuenta</label>
+            <label>Account Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
-            <label>Importe</label>
+            <label>Amount</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSE_DATE</field>
-            <label>Fecha de cierre</label>
+            <label>Close Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.STAGE_NAME</field>
-            <label>Etapa</label>
+            <label>Stage</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.PROBABILITY</field>
-            <label>Probabilidad (%)</label>
+            <label>Probability (%)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>FORECAST_CATEGORY</field>
-            <label>Categoría de previsión</label>
+            <label>Forecast Category</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>FULL_NAME</field>
-            <label>Nombre completo del propietario</label>
+            <label>Owner Full Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
-            <label>Número de contrato</label>
+            <label>Contract Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.NAME</field>
-            <label>Nombre del contrato</label>
+            <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.ALIAS</field>
@@ -2304,39 +1473,39 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.FIRST_NAME</field>
-            <label>Nombre</label>
+            <label>First Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.LAST_NAME</field>
-            <label>Apellidos</label>
+            <label>Last Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>DESCRIPTION</field>
-            <label>Descripción</label>
+            <label>Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.EXP_AMOUNT</field>
-            <label>Ingresos previstos</label>
+            <label>Expected Revenue</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LEAD_SOURCE</field>
-            <label>Origen del candidato</label>
+            <label>Lead Source</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
-            <label>Paso siguiente</label>
+            <label>Next Step</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.PRIVATE</field>
-            <label>Privada</label>
+            <label>Private</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.QUANTITY</field>
-            <label>Cantidad</label>
+            <label>Quantity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.TYPE</field>
-            <label>Tipo</label>
+            <label>Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>UPDATEDBY_USER.ALIAS</field>
@@ -2348,58 +1517,62 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSED</field>
-            <label>Cerrado</label>
+            <label>Closed</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.WON</field>
-            <label>Ganadas</label>
+            <label>Won</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.SITE</field>
-            <label>Sitio de la cuenta</label>
+            <label>Account Site</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_YEAR</field>
-            <label>Año fiscal</label>
+            <label>Fiscal Year</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
-            <label>Trimestre fiscal</label>
+            <label>Fiscal Quarter</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <label>Periodo fiscal</label>
+            <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
-            <label>Última actividad</label>
+            <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CREATED_DATE</field>
-            <label>Fecha de creación</label>
+            <label>Created Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <label>Fecha de la última modificación</label>
+            <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaK</field>
+            <field>00N1r00000CqCtU</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaL</field>
+            <field>00N1r00000CqCtV</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaM</field>
+            <field>00N1r00000CzvIk</field>
+            <label>External ID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N1r00000CqCtW</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaN</field>
+            <field>00N1r00000CqCtX</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaO</field>
+            <field>00N1r00000CqCtY</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -2436,11 +1609,12 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N1t00000BioaK</field>
-            <field>00N1t00000BioaL</field>
-            <field>00N1t00000BioaM</field>
-            <field>00N1t00000BioaN</field>
-            <field>00N1t00000BioaO</field>
+            <field>00N1r00000CqCtU</field>
+            <field>00N1r00000CqCtV</field>
+            <field>00N1r00000CzvIk</field>
+            <field>00N1r00000CqCtW</field>
+            <field>00N1r00000CqCtX</field>
+            <field>00N1r00000CqCtY</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -2474,43 +1648,43 @@
         <name>LineItemQuantityScheduleDate</name>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NAME</field>
-            <label>Nombre de la oportunidad</label>
+            <label>Opportunity Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.NAME</field>
-            <label>Nombre de la cuenta</label>
+            <label>Account Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
-            <label>Importe</label>
+            <label>Amount</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSE_DATE</field>
-            <label>Fecha de cierre</label>
+            <label>Close Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.STAGE_NAME</field>
-            <label>Etapa</label>
+            <label>Stage</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.PROBABILITY</field>
-            <label>Probabilidad (%)</label>
+            <label>Probability (%)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>FORECAST_CATEGORY</field>
-            <label>Categoría de previsión</label>
+            <label>Forecast Category</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>FULL_NAME</field>
-            <label>Nombre completo del propietario</label>
+            <label>Owner Full Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
-            <label>Número de contrato</label>
+            <label>Contract Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.NAME</field>
-            <label>Nombre del contrato</label>
+            <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.ALIAS</field>
@@ -2518,39 +1692,39 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.FIRST_NAME</field>
-            <label>Nombre</label>
+            <label>First Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.LAST_NAME</field>
-            <label>Apellidos</label>
+            <label>Last Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>DESCRIPTION</field>
-            <label>Descripción</label>
+            <label>Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.EXP_AMOUNT</field>
-            <label>Ingresos previstos</label>
+            <label>Expected Revenue</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LEAD_SOURCE</field>
-            <label>Origen del candidato</label>
+            <label>Lead Source</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
-            <label>Paso siguiente</label>
+            <label>Next Step</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.PRIVATE</field>
-            <label>Privada</label>
+            <label>Private</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.QUANTITY</field>
-            <label>Cantidad</label>
+            <label>Quantity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.TYPE</field>
-            <label>Tipo</label>
+            <label>Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>UPDATEDBY_USER.ALIAS</field>
@@ -2562,58 +1736,62 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSED</field>
-            <label>Cerrado</label>
+            <label>Closed</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.WON</field>
-            <label>Ganadas</label>
+            <label>Won</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.SITE</field>
-            <label>Sitio de la cuenta</label>
+            <label>Account Site</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_YEAR</field>
-            <label>Año fiscal</label>
+            <label>Fiscal Year</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
-            <label>Trimestre fiscal</label>
+            <label>Fiscal Quarter</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <label>Periodo fiscal</label>
+            <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
-            <label>Última actividad</label>
+            <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CREATED_DATE</field>
-            <label>Fecha de creación</label>
+            <label>Created Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <label>Fecha de la última modificación</label>
+            <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaK</field>
+            <field>00N1r00000CqCtU</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaL</field>
+            <field>00N1r00000CqCtV</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaM</field>
+            <field>00N1r00000CzvIk</field>
+            <label>External ID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N1r00000CqCtW</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaN</field>
+            <field>00N1r00000CqCtX</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000BioaO</field>
+            <field>00N1r00000CqCtY</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -2650,11 +1828,893 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N1t00000BioaK</field>
-            <field>00N1t00000BioaL</field>
-            <field>00N1t00000BioaM</field>
-            <field>00N1t00000BioaN</field>
-            <field>00N1t00000BioaO</field>
+            <field>00N1r00000CqCtU</field>
+            <field>00N1r00000CqCtV</field>
+            <field>00N1r00000CzvIk</field>
+            <field>00N1r00000CqCtW</field>
+            <field>00N1r00000CqCtX</field>
+            <field>00N1r00000CqCtY</field>
+        </opportunityListFieldsUnselectedSettings>
+        <quotasSettings>
+            <showQuotas>false</showQuotas>
+        </quotasSettings>
+    </forecastingTypeSettings>
+    <forecastingTypeSettings>
+        <active>true</active>
+        <adjustmentsSettings>
+            <enableAdjustments>false</enableAdjustments>
+            <enableOwnerAdjustments>false</enableOwnerAdjustments>
+        </adjustmentsSettings>
+        <displayedCategoryApiNames>closedonly</displayedCategoryApiNames>
+        <displayedCategoryApiNames>commitonly</displayedCategoryApiNames>
+        <displayedCategoryApiNames>bestcaseonly</displayedCategoryApiNames>
+        <displayedCategoryApiNames>pipelineonly</displayedCategoryApiNames>
+        <forecastRangeSettings>
+            <beginning>0</beginning>
+            <displaying>6</displaying>
+            <periodType>Month</periodType>
+        </forecastRangeSettings>
+        <forecastedCategoryApiNames>commitonly</forecastedCategoryApiNames>
+        <forecastedCategoryApiNames>closedonly</forecastedCategoryApiNames>
+        <forecastedCategoryApiNames>pipelineonly</forecastedCategoryApiNames>
+        <forecastedCategoryApiNames>bestcaseonly</forecastedCategoryApiNames>
+        <forecastingDateType>OpportunityCloseDate</forecastingDateType>
+        <hasProductFamily>false</hasProductFamily>
+        <isAmount>true</isAmount>
+        <isAvailable>true</isAvailable>
+        <isQuantity>false</isQuantity>
+        <masterLabel>Opportunities</masterLabel>
+        <name>OpportunityRevenue</name>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.NAME</field>
+            <label>Opportunity Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>ACCOUNT.NAME</field>
+            <label>Account Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.AMOUNT</field>
+            <label>Amount</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.CLOSE_DATE</field>
+            <label>Close Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <label>Stage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.PROBABILITY</field>
+            <label>Probability (%)</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>FORECAST_CATEGORY</field>
+            <label>Forecast Category</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>FULL_NAME</field>
+            <label>Owner Full Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CONTRACT.CONTRACT_NUMBER</field>
+            <label>Contract Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CONTRACT.NAME</field>
+            <label>Contract Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CORE.USERS.ALIAS</field>
+            <label>Opportunity Owner Alias</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CORE.USERS.FIRST_NAME</field>
+            <label>Owner First Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CORE.USERS.LAST_NAME</field>
+            <label>Owner Last Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>DESCRIPTION</field>
+            <label>Description</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.EXP_AMOUNT</field>
+            <label>Expected Revenue</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LEAD_SOURCE</field>
+            <label>Lead Source</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.NEXT_STEP</field>
+            <label>Next Step</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.PRIVATE</field>
+            <label>Private</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.QUANTITY</field>
+            <label>Quantity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.TYPE</field>
+            <label>Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>UPDATEDBY_USER.ALIAS</field>
+            <label>Last Modified By Alias</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CREATEDBY_USER.ALIAS</field>
+            <label>Created By Alias</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.CLOSED</field>
+            <label>Closed</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.WON</field>
+            <label>Won</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>ACCOUNT.SITE</field>
+            <label>Account Site</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.FISCAL_YEAR</field>
+            <label>Fiscal Year</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.FISCAL_QUARTER</field>
+            <label>Fiscal Quarter</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.FISCAL_PERIOD</field>
+            <label>Fiscal Period</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_ACTIVITY</field>
+            <label>Last Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.CREATED_DATE</field>
+            <label>Created Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_UPDATE</field>
+            <label>Last Modified Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N1r00000CqCtU</field>
+            <label>Current Generator(s)</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N1r00000CqCtV</field>
+            <label>Delivery/Installation Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N1r00000CzvIk</field>
+            <label>External ID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N1r00000CqCtW</field>
+            <label>Main Competitor(s)</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N1r00000CqCtX</field>
+            <label>Order Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N1r00000CqCtY</field>
+            <label>Tracking Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsSelectedSettings>
+            <field>OPPORTUNITY.NAME</field>
+            <field>ACCOUNT.NAME</field>
+            <field>OPPORTUNITY.AMOUNT</field>
+            <field>OPPORTUNITY.CLOSE_DATE</field>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <field>OPPORTUNITY.PROBABILITY</field>
+            <field>FORECAST_CATEGORY</field>
+            <field>FULL_NAME</field>
+        </opportunityListFieldsSelectedSettings>
+        <opportunityListFieldsUnselectedSettings>
+            <field>CONTRACT.CONTRACT_NUMBER</field>
+            <field>CONTRACT.NAME</field>
+            <field>CORE.USERS.ALIAS</field>
+            <field>CORE.USERS.FIRST_NAME</field>
+            <field>CORE.USERS.LAST_NAME</field>
+            <field>DESCRIPTION</field>
+            <field>OPPORTUNITY.EXP_AMOUNT</field>
+            <field>OPPORTUNITY.LEAD_SOURCE</field>
+            <field>OPPORTUNITY.NEXT_STEP</field>
+            <field>OPPORTUNITY.PRIVATE</field>
+            <field>OPPORTUNITY.QUANTITY</field>
+            <field>OPPORTUNITY.TYPE</field>
+            <field>UPDATEDBY_USER.ALIAS</field>
+            <field>CREATEDBY_USER.ALIAS</field>
+            <field>OPPORTUNITY.CLOSED</field>
+            <field>OPPORTUNITY.WON</field>
+            <field>ACCOUNT.SITE</field>
+            <field>OPPORTUNITY.FISCAL_YEAR</field>
+            <field>OPPORTUNITY.FISCAL_QUARTER</field>
+            <field>OPPORTUNITY.FISCAL_PERIOD</field>
+            <field>OPPORTUNITY.LAST_ACTIVITY</field>
+            <field>OPPORTUNITY.CREATED_DATE</field>
+            <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00N1r00000CqCtU</field>
+            <field>00N1r00000CqCtV</field>
+            <field>00N1r00000CzvIk</field>
+            <field>00N1r00000CqCtW</field>
+            <field>00N1r00000CqCtX</field>
+            <field>00N1r00000CqCtY</field>
+        </opportunityListFieldsUnselectedSettings>
+        <quotasSettings>
+            <showQuotas>false</showQuotas>
+        </quotasSettings>
+    </forecastingTypeSettings>
+    <forecastingTypeSettings>
+        <active>false</active>
+        <adjustmentsSettings>
+            <enableAdjustments>false</enableAdjustments>
+            <enableOwnerAdjustments>false</enableOwnerAdjustments>
+        </adjustmentsSettings>
+        <displayedCategoryApiNames>closedonly</displayedCategoryApiNames>
+        <displayedCategoryApiNames>commitonly</displayedCategoryApiNames>
+        <displayedCategoryApiNames>bestcaseonly</displayedCategoryApiNames>
+        <displayedCategoryApiNames>pipelineonly</displayedCategoryApiNames>
+        <forecastRangeSettings>
+            <beginning>0</beginning>
+            <displaying>6</displaying>
+            <periodType>Month</periodType>
+        </forecastRangeSettings>
+        <forecastedCategoryApiNames>commitonly</forecastedCategoryApiNames>
+        <forecastedCategoryApiNames>closedonly</forecastedCategoryApiNames>
+        <forecastedCategoryApiNames>pipelineonly</forecastedCategoryApiNames>
+        <forecastedCategoryApiNames>bestcaseonly</forecastedCategoryApiNames>
+        <forecastingDateType>OpportunityCloseDate</forecastingDateType>
+        <hasProductFamily>false</hasProductFamily>
+        <isAmount>false</isAmount>
+        <isAvailable>true</isAvailable>
+        <isQuantity>true</isQuantity>
+        <masterLabel>Opportunities</masterLabel>
+        <name>OpportunityQuantity</name>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.NAME</field>
+            <label>Opportunity Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>ACCOUNT.NAME</field>
+            <label>Account Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.QUANTITY</field>
+            <label>Quantity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.CLOSE_DATE</field>
+            <label>Close Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <label>Stage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.PROBABILITY</field>
+            <label>Probability (%)</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>FORECAST_CATEGORY</field>
+            <label>Forecast Category</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>FULL_NAME</field>
+            <label>Owner Full Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CONTRACT.CONTRACT_NUMBER</field>
+            <label>Contract Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CONTRACT.NAME</field>
+            <label>Contract Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.AMOUNT</field>
+            <label>Amount</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CORE.USERS.ALIAS</field>
+            <label>Opportunity Owner Alias</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CORE.USERS.FIRST_NAME</field>
+            <label>Owner First Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CORE.USERS.LAST_NAME</field>
+            <label>Owner Last Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>DESCRIPTION</field>
+            <label>Description</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.EXP_AMOUNT</field>
+            <label>Expected Revenue</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LEAD_SOURCE</field>
+            <label>Lead Source</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.NEXT_STEP</field>
+            <label>Next Step</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.PRIVATE</field>
+            <label>Private</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.TYPE</field>
+            <label>Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>UPDATEDBY_USER.ALIAS</field>
+            <label>Last Modified By Alias</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CREATEDBY_USER.ALIAS</field>
+            <label>Created By Alias</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.CLOSED</field>
+            <label>Closed</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.WON</field>
+            <label>Won</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>ACCOUNT.SITE</field>
+            <label>Account Site</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.FISCAL_YEAR</field>
+            <label>Fiscal Year</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.FISCAL_QUARTER</field>
+            <label>Fiscal Quarter</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.FISCAL_PERIOD</field>
+            <label>Fiscal Period</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_ACTIVITY</field>
+            <label>Last Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.CREATED_DATE</field>
+            <label>Created Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_UPDATE</field>
+            <label>Last Modified Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N1r00000CqCtU</field>
+            <label>Current Generator(s)</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N1r00000CqCtV</field>
+            <label>Delivery/Installation Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N1r00000CzvIk</field>
+            <label>External ID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N1r00000CqCtW</field>
+            <label>Main Competitor(s)</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N1r00000CqCtX</field>
+            <label>Order Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N1r00000CqCtY</field>
+            <label>Tracking Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsSelectedSettings>
+            <field>OPPORTUNITY.NAME</field>
+            <field>ACCOUNT.NAME</field>
+            <field>OPPORTUNITY.QUANTITY</field>
+            <field>OPPORTUNITY.CLOSE_DATE</field>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <field>OPPORTUNITY.PROBABILITY</field>
+            <field>FORECAST_CATEGORY</field>
+            <field>FULL_NAME</field>
+        </opportunityListFieldsSelectedSettings>
+        <opportunityListFieldsUnselectedSettings>
+            <field>CONTRACT.CONTRACT_NUMBER</field>
+            <field>CONTRACT.NAME</field>
+            <field>OPPORTUNITY.AMOUNT</field>
+            <field>CORE.USERS.ALIAS</field>
+            <field>CORE.USERS.FIRST_NAME</field>
+            <field>CORE.USERS.LAST_NAME</field>
+            <field>DESCRIPTION</field>
+            <field>OPPORTUNITY.EXP_AMOUNT</field>
+            <field>OPPORTUNITY.LEAD_SOURCE</field>
+            <field>OPPORTUNITY.NEXT_STEP</field>
+            <field>OPPORTUNITY.PRIVATE</field>
+            <field>OPPORTUNITY.TYPE</field>
+            <field>UPDATEDBY_USER.ALIAS</field>
+            <field>CREATEDBY_USER.ALIAS</field>
+            <field>OPPORTUNITY.CLOSED</field>
+            <field>OPPORTUNITY.WON</field>
+            <field>ACCOUNT.SITE</field>
+            <field>OPPORTUNITY.FISCAL_YEAR</field>
+            <field>OPPORTUNITY.FISCAL_QUARTER</field>
+            <field>OPPORTUNITY.FISCAL_PERIOD</field>
+            <field>OPPORTUNITY.LAST_ACTIVITY</field>
+            <field>OPPORTUNITY.CREATED_DATE</field>
+            <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00N1r00000CqCtU</field>
+            <field>00N1r00000CqCtV</field>
+            <field>00N1r00000CzvIk</field>
+            <field>00N1r00000CqCtW</field>
+            <field>00N1r00000CqCtX</field>
+            <field>00N1r00000CqCtY</field>
+        </opportunityListFieldsUnselectedSettings>
+        <quotasSettings>
+            <showQuotas>false</showQuotas>
+        </quotasSettings>
+    </forecastingTypeSettings>
+    <forecastingTypeSettings>
+        <active>false</active>
+        <adjustmentsSettings>
+            <enableAdjustments>false</enableAdjustments>
+            <enableOwnerAdjustments>false</enableOwnerAdjustments>
+        </adjustmentsSettings>
+        <displayedCategoryApiNames>closedonly</displayedCategoryApiNames>
+        <displayedCategoryApiNames>commitonly</displayedCategoryApiNames>
+        <displayedCategoryApiNames>bestcaseonly</displayedCategoryApiNames>
+        <displayedCategoryApiNames>pipelineonly</displayedCategoryApiNames>
+        <forecastRangeSettings>
+            <beginning>0</beginning>
+            <displaying>6</displaying>
+            <periodType>Month</periodType>
+        </forecastRangeSettings>
+        <forecastedCategoryApiNames>commitonly</forecastedCategoryApiNames>
+        <forecastedCategoryApiNames>closedonly</forecastedCategoryApiNames>
+        <forecastedCategoryApiNames>pipelineonly</forecastedCategoryApiNames>
+        <forecastedCategoryApiNames>bestcaseonly</forecastedCategoryApiNames>
+        <forecastingDateType>OpportunityCloseDate</forecastingDateType>
+        <hasProductFamily>true</hasProductFamily>
+        <isAmount>true</isAmount>
+        <isAvailable>true</isAvailable>
+        <isQuantity>false</isQuantity>
+        <masterLabel>Product Families</masterLabel>
+        <name>OpportunityLineItemRevenue</name>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.NAME</field>
+            <label>Opportunity Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>ACCOUNT.NAME</field>
+            <label>Account Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>SPLITAMOUNT</field>
+            <label>Forecasted Amount</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.CLOSE_DATE</field>
+            <label>Close Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <label>Stage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.PROBABILITY</field>
+            <label>Probability (%)</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>FORECAST_CATEGORY</field>
+            <label>Forecast Category</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>FULL_NAME</field>
+            <label>Owner Full Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CONTRACT.CONTRACT_NUMBER</field>
+            <label>Contract Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CONTRACT.NAME</field>
+            <label>Contract Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.AMOUNT</field>
+            <label>Amount</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CORE.USERS.ALIAS</field>
+            <label>Opportunity Owner Alias</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CORE.USERS.FIRST_NAME</field>
+            <label>Owner First Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CORE.USERS.LAST_NAME</field>
+            <label>Owner Last Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>DESCRIPTION</field>
+            <label>Description</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.EXP_AMOUNT</field>
+            <label>Expected Revenue</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LEAD_SOURCE</field>
+            <label>Lead Source</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.NEXT_STEP</field>
+            <label>Next Step</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.PRIVATE</field>
+            <label>Private</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.QUANTITY</field>
+            <label>Quantity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.TYPE</field>
+            <label>Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>UPDATEDBY_USER.ALIAS</field>
+            <label>Last Modified By Alias</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CREATEDBY_USER.ALIAS</field>
+            <label>Created By Alias</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.CLOSED</field>
+            <label>Closed</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.WON</field>
+            <label>Won</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>ACCOUNT.SITE</field>
+            <label>Account Site</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.FISCAL_YEAR</field>
+            <label>Fiscal Year</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.FISCAL_QUARTER</field>
+            <label>Fiscal Quarter</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.FISCAL_PERIOD</field>
+            <label>Fiscal Period</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_ACTIVITY</field>
+            <label>Last Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.CREATED_DATE</field>
+            <label>Created Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_UPDATE</field>
+            <label>Last Modified Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N1r00000CqCtU</field>
+            <label>Current Generator(s)</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N1r00000CqCtV</field>
+            <label>Delivery/Installation Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N1r00000CzvIk</field>
+            <label>External ID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N1r00000CqCtW</field>
+            <label>Main Competitor(s)</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N1r00000CqCtX</field>
+            <label>Order Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N1r00000CqCtY</field>
+            <label>Tracking Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsSelectedSettings>
+            <field>OPPORTUNITY.NAME</field>
+            <field>ACCOUNT.NAME</field>
+            <field>SPLITAMOUNT</field>
+            <field>OPPORTUNITY.CLOSE_DATE</field>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <field>OPPORTUNITY.PROBABILITY</field>
+            <field>FORECAST_CATEGORY</field>
+            <field>FULL_NAME</field>
+        </opportunityListFieldsSelectedSettings>
+        <opportunityListFieldsUnselectedSettings>
+            <field>CONTRACT.CONTRACT_NUMBER</field>
+            <field>CONTRACT.NAME</field>
+            <field>OPPORTUNITY.AMOUNT</field>
+            <field>CORE.USERS.ALIAS</field>
+            <field>CORE.USERS.FIRST_NAME</field>
+            <field>CORE.USERS.LAST_NAME</field>
+            <field>DESCRIPTION</field>
+            <field>OPPORTUNITY.EXP_AMOUNT</field>
+            <field>OPPORTUNITY.LEAD_SOURCE</field>
+            <field>OPPORTUNITY.NEXT_STEP</field>
+            <field>OPPORTUNITY.PRIVATE</field>
+            <field>OPPORTUNITY.QUANTITY</field>
+            <field>OPPORTUNITY.TYPE</field>
+            <field>UPDATEDBY_USER.ALIAS</field>
+            <field>CREATEDBY_USER.ALIAS</field>
+            <field>OPPORTUNITY.CLOSED</field>
+            <field>OPPORTUNITY.WON</field>
+            <field>ACCOUNT.SITE</field>
+            <field>OPPORTUNITY.FISCAL_YEAR</field>
+            <field>OPPORTUNITY.FISCAL_QUARTER</field>
+            <field>OPPORTUNITY.FISCAL_PERIOD</field>
+            <field>OPPORTUNITY.LAST_ACTIVITY</field>
+            <field>OPPORTUNITY.CREATED_DATE</field>
+            <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00N1r00000CqCtU</field>
+            <field>00N1r00000CqCtV</field>
+            <field>00N1r00000CzvIk</field>
+            <field>00N1r00000CqCtW</field>
+            <field>00N1r00000CqCtX</field>
+            <field>00N1r00000CqCtY</field>
+        </opportunityListFieldsUnselectedSettings>
+        <quotasSettings>
+            <showQuotas>false</showQuotas>
+        </quotasSettings>
+    </forecastingTypeSettings>
+    <forecastingTypeSettings>
+        <active>false</active>
+        <adjustmentsSettings>
+            <enableAdjustments>false</enableAdjustments>
+            <enableOwnerAdjustments>false</enableOwnerAdjustments>
+        </adjustmentsSettings>
+        <displayedCategoryApiNames>closedonly</displayedCategoryApiNames>
+        <displayedCategoryApiNames>commitonly</displayedCategoryApiNames>
+        <displayedCategoryApiNames>bestcaseonly</displayedCategoryApiNames>
+        <displayedCategoryApiNames>pipelineonly</displayedCategoryApiNames>
+        <forecastRangeSettings>
+            <beginning>0</beginning>
+            <displaying>6</displaying>
+            <periodType>Month</periodType>
+        </forecastRangeSettings>
+        <forecastedCategoryApiNames>commitonly</forecastedCategoryApiNames>
+        <forecastedCategoryApiNames>closedonly</forecastedCategoryApiNames>
+        <forecastedCategoryApiNames>pipelineonly</forecastedCategoryApiNames>
+        <forecastedCategoryApiNames>bestcaseonly</forecastedCategoryApiNames>
+        <forecastingDateType>OpportunityCloseDate</forecastingDateType>
+        <hasProductFamily>true</hasProductFamily>
+        <isAmount>false</isAmount>
+        <isAvailable>true</isAvailable>
+        <isQuantity>true</isQuantity>
+        <masterLabel>Product Families</masterLabel>
+        <name>OpportunityLineItemQuantity</name>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.NAME</field>
+            <label>Opportunity Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>ACCOUNT.NAME</field>
+            <label>Account Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.QUANTITY</field>
+            <label>Quantity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.CLOSE_DATE</field>
+            <label>Close Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <label>Stage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.PROBABILITY</field>
+            <label>Probability (%)</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>FORECAST_CATEGORY</field>
+            <label>Forecast Category</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>FULL_NAME</field>
+            <label>Owner Full Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CONTRACT.CONTRACT_NUMBER</field>
+            <label>Contract Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CONTRACT.NAME</field>
+            <label>Contract Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.AMOUNT</field>
+            <label>Amount</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CORE.USERS.ALIAS</field>
+            <label>Opportunity Owner Alias</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CORE.USERS.FIRST_NAME</field>
+            <label>Owner First Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CORE.USERS.LAST_NAME</field>
+            <label>Owner Last Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>DESCRIPTION</field>
+            <label>Description</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.EXP_AMOUNT</field>
+            <label>Expected Revenue</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LEAD_SOURCE</field>
+            <label>Lead Source</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.NEXT_STEP</field>
+            <label>Next Step</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.PRIVATE</field>
+            <label>Private</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.TYPE</field>
+            <label>Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>UPDATEDBY_USER.ALIAS</field>
+            <label>Last Modified By Alias</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CREATEDBY_USER.ALIAS</field>
+            <label>Created By Alias</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.CLOSED</field>
+            <label>Closed</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.WON</field>
+            <label>Won</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>ACCOUNT.SITE</field>
+            <label>Account Site</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.FISCAL_YEAR</field>
+            <label>Fiscal Year</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.FISCAL_QUARTER</field>
+            <label>Fiscal Quarter</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.FISCAL_PERIOD</field>
+            <label>Fiscal Period</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_ACTIVITY</field>
+            <label>Last Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.CREATED_DATE</field>
+            <label>Created Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_UPDATE</field>
+            <label>Last Modified Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N1r00000CqCtU</field>
+            <label>Current Generator(s)</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N1r00000CqCtV</field>
+            <label>Delivery/Installation Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N1r00000CzvIk</field>
+            <label>External ID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N1r00000CqCtW</field>
+            <label>Main Competitor(s)</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N1r00000CqCtX</field>
+            <label>Order Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N1r00000CqCtY</field>
+            <label>Tracking Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsSelectedSettings>
+            <field>OPPORTUNITY.NAME</field>
+            <field>ACCOUNT.NAME</field>
+            <field>OPPORTUNITY.QUANTITY</field>
+            <field>OPPORTUNITY.CLOSE_DATE</field>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <field>OPPORTUNITY.PROBABILITY</field>
+            <field>FORECAST_CATEGORY</field>
+            <field>FULL_NAME</field>
+        </opportunityListFieldsSelectedSettings>
+        <opportunityListFieldsUnselectedSettings>
+            <field>CONTRACT.CONTRACT_NUMBER</field>
+            <field>CONTRACT.NAME</field>
+            <field>OPPORTUNITY.AMOUNT</field>
+            <field>CORE.USERS.ALIAS</field>
+            <field>CORE.USERS.FIRST_NAME</field>
+            <field>CORE.USERS.LAST_NAME</field>
+            <field>DESCRIPTION</field>
+            <field>OPPORTUNITY.EXP_AMOUNT</field>
+            <field>OPPORTUNITY.LEAD_SOURCE</field>
+            <field>OPPORTUNITY.NEXT_STEP</field>
+            <field>OPPORTUNITY.PRIVATE</field>
+            <field>OPPORTUNITY.TYPE</field>
+            <field>UPDATEDBY_USER.ALIAS</field>
+            <field>CREATEDBY_USER.ALIAS</field>
+            <field>OPPORTUNITY.CLOSED</field>
+            <field>OPPORTUNITY.WON</field>
+            <field>ACCOUNT.SITE</field>
+            <field>OPPORTUNITY.FISCAL_YEAR</field>
+            <field>OPPORTUNITY.FISCAL_QUARTER</field>
+            <field>OPPORTUNITY.FISCAL_PERIOD</field>
+            <field>OPPORTUNITY.LAST_ACTIVITY</field>
+            <field>OPPORTUNITY.CREATED_DATE</field>
+            <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00N1r00000CqCtU</field>
+            <field>00N1r00000CqCtV</field>
+            <field>00N1r00000CzvIk</field>
+            <field>00N1r00000CqCtW</field>
+            <field>00N1r00000CqCtX</field>
+            <field>00N1r00000CqCtY</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
