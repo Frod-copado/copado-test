@@ -154,7 +154,7 @@
     </fields>
     <fields>
         <fullName>External_ID__c</fullName>
-        <externalId>true</externalId>
+        <externalId>false</externalId>
         <label>External ID</label>
         <length>100</length>
         <required>false</required>

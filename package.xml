@@ -4,5 +4,9 @@
         <members>Account.External_ID__c</members>
         <name>CustomField</name>
     </types>
-    <version>44.0</version>
+    <types>
+        <members>Account-Nano layout</members>
+        <name>Layout</name>
+    </types>
+    <version>43.0</version>
 </Package>
