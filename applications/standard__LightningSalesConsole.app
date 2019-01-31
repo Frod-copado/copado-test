@@ -19,9 +19,13 @@
     <tabs>standard-CollaborationGroup</tabs>
     <tabs>standard-File</tabs>
     <tabs>AccountTab__c</tabs>
+    <tabs>Account2tab__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LightningSalesConsole_UtilityBar</utilityBar>
     <workspaceConfig>
+        <mappings>
+            <tab>Account2tab__c</tab>
+        </mappings>
         <mappings>
             <tab>AccountTab__c</tab>
         </mappings>

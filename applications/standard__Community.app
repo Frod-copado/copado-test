@@ -12,4 +12,5 @@
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
     <tabs>AccountTab__c</tabs>
+    <tabs>Account2tab__c</tabs>
 </CustomApplication>

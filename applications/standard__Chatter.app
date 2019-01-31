@@ -10,4 +10,5 @@
     <tabs>standard-CollaborationGroup</tabs>
     <tabs>standard-File</tabs>
     <tabs>AccountTab__c</tabs>
+    <tabs>Account2tab__c</tabs>
 </CustomApplication>

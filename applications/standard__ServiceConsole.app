@@ -180,7 +180,11 @@
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-Lead</tabs>
     <tabs>AccountTab__c</tabs>
+    <tabs>Account2tab__c</tabs>
     <workspaceConfig>
+        <mappings>
+            <tab>Account2tab__c</tab>
+        </mappings>
         <mappings>
             <tab>AccountTab__c</tab>
         </mappings>

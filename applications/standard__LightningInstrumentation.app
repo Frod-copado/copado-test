@@ -7,5 +7,6 @@
     <navType>Standard</navType>
     <tabs>standard-LightningInstrumentation</tabs>
     <tabs>AccountTab__c</tabs>
+    <tabs>Account2tab__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

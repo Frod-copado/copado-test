@@ -6,4 +6,5 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <tabs>standard-AppLauncher</tabs>
     <tabs>AccountTab__c</tabs>
+    <tabs>Account2tab__c</tabs>
 </CustomApplication>

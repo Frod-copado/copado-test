@@ -91,6 +91,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.Active__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.AnnualRevenue</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1353,6 +1358,9 @@
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Account2tab__c-Account2tab Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>AccountTab__c-AccountTab Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -1543,6 +1551,10 @@
         <recordType>Metric.Progress</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
+    <tabVisibilities>
+        <tab>Account2tab__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>AccountTab__c</tab>
         <visibility>DefaultOn</visibility>
