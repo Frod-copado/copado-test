@@ -3,7 +3,7 @@ public class AccountOperations {
         // If statements must use braces
         if (a.Description != null) return a;
     else a.Description = 'Default Description';
-        // THIS IS SPARTA!
+        
         // Avoid SOQL inside loops
         for (Integer i = 0; i < 10; i++) {
         List<Account> accounts = [SELECT Id FROM Account];
